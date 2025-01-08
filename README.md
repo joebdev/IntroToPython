@@ -1,0 +1,1 @@
+This is the git repo that will contain all of the python problems that are going to be completed during the Intro To Python Book in the Intro course of Launch School
