@@ -1,0 +1,55 @@
+# Reading Documentation 2
+
+# 1.
+name = 'Victor'
+profession = 'programmer'
+
+print("Hello, {name}. You are a {profession}.".format(name=name,
+                                                      profession=profession))
+print(f'Hello, {name}. You are a {profession}.')
+
+# 2.
+ice_cream_density = 10
+
+while ice_cream_density > 0:
+  print('Drip...')
+  ice_cream_density -= 1
+
+print('The ice cream melted.')
+
+# 3.
+print((4 * 5) + (3**2) / 10)
+
+# 4.
+import datetime
+
+current_date = datetime.datetime.now()
+print(current_date)
+
+# 5.
+# isocalender returns a tuple of (year, week_number, weekday) the may differ because isocalendar starts with the first week that has at least 4 days in the new year.
+
+# 6.
+# str.join('') expects 1 argument, will result in an error if given too many or too few.
+
+# 7.
+# use the 'in' operator, so 'at' in 'cat' would return True
+
+# 8.
+# a syntax error indicates that the code isn't syntacically correct, in this instance, the if statement is missing the colon :.
+speed_limit = 60
+current_speed = 80
+
+if current_speed > speed_limit:
+  print('"People are so bad at driving cars that '
+        "computers don\'t have to be that good to be "
+        'much better." -- Marc Andreessen')
+
+# 9.
+# TypeError indicates that you're trying to use two different types together incorrectly, in this case adding an int to a str.
+# tweet = 'Woohoo! :-)'
+
+# if len(tweet) > 140:
+#   print('Tweet is too long!')
+
+# length_of_tweet = len(tweet + 5)
